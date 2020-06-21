@@ -33,7 +33,6 @@ class School
       @roster[@grade] = []
       @roster[@grade] << @student
     end
-    @roster.merge(ROSTER)
   end
     
   
