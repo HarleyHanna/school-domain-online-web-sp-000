@@ -27,11 +27,11 @@ class School
   def add_student(student, grade)
     @student = student
     @grade = grade
-    if ROSTER.include?(@grade) == true 
-      ROSTER[@grade] << @student
+    if @roster.include?(@grade) == true 
+      @roster[@grade] << @student
     else 
-      ROSTER[@grade] = []
-      ROSTER[@grade] << @student
+      @roster[@grade] = []
+      @roster[@grade] << @student
     end
     @roster.merge(ROSTER)
   end
