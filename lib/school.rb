@@ -27,16 +27,16 @@ class School
   
   def grade=(grade)
     @grade = grade
+  end
+  
+  def grade(grade)
+    @grade = grade
     if @roster[@grade].empty? == false
       @roster[@grade].each do |student|
         @grade_roster << student
       end
     end
     @grade_roster
-  end
-  
-  def grade(grade)
-    @grade
   end
   
       
