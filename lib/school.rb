@@ -25,6 +25,10 @@ class School
     @grade
   end
   
+  def grade
+    @grade
+  end
+  
   def grade=(grade)
     @grade = grade
     if @roster[@grade].empty? == false
