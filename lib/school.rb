@@ -56,10 +56,10 @@ class School
   
   
   def sort
-    @sorted_roster = @roster.sort
-    @sorted_roster.sort_by{|grade, name| grade}
-    @sorted_roster
-  end
+    @roster.each do |grade, name|
+      name.sort
+      @roster.merge(name)
+    end
   
   
   
