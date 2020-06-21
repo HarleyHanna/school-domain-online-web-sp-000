@@ -1,7 +1,6 @@
 class School
   
   attr_accessor = :school_name
-  attr_reader = :grade
   
   ROSTER = {}
   
@@ -35,6 +34,11 @@ class School
     end
     @grade_roster
   end
+  
+  def grade
+    @grade
+  end
+  
       
   
   
