@@ -58,7 +58,7 @@ class School
   def sort
     @roster.each do |grade, name|
       name.sort
-      @roster.merge(name)
+      @roster << name
     end
   end
   
