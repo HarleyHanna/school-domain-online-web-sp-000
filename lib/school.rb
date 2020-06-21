@@ -56,8 +56,9 @@ class School
   
   
   def sort
-    @roster.each do |key, value|
-      if 
+    @sorted_roster = @roster.sort
+    @sorted_roster.sort_by{|grade, name| name}
+    @sorted_roster
   end
   
   
