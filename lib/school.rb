@@ -60,6 +60,7 @@ class School
       name.sort
       @roster.merge(name)
     end
+  end
   
   
   
