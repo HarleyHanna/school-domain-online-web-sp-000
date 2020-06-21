@@ -1,6 +1,7 @@
 class School
   
   attr_accessor = :school_name
+  attr_reader = :grade
   
   ROSTER = {}
   
@@ -22,10 +23,6 @@ class School
   
   def add_student
     @student
-    @grade
-  end
-  
-  def grade
     @grade
   end
   
