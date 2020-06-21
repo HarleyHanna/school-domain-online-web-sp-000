@@ -57,7 +57,7 @@ class School
   
   def sort
     @roster.each do |grade, name|
-      name.sort_by{|n| n.class == 
+      name.sort_by{|n| n.class == Array ? 
       @roster[grade] = name
     end
   end
