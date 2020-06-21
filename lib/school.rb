@@ -35,7 +35,7 @@ class School
     @grade_roster
   end
   
-  def grade
+  def grade(grade)
     @grade
   end
   
