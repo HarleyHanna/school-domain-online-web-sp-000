@@ -53,7 +53,17 @@ class School
     end
     @roster
   end
-    
+  
+  
+  def sort
+  
+end
+  
+  
+  
+  
+  
+      
   
   
 end 
