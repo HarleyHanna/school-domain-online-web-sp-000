@@ -56,7 +56,7 @@ class School
   
   
   def sort
-    @roster.sort
+    @sorted_roster = @roster.sort
   end
   
   
