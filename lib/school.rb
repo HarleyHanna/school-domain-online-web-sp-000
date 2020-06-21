@@ -26,7 +26,7 @@ class School
   
   def grade=(grade)
     @grade = grade
-    if @grade.empty? 
+    if @roster[@grade].empty?
   
   
   def add_student(student, grade)
