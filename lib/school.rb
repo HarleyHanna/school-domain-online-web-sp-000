@@ -1,6 +1,6 @@
 class School
   
-  attr_accessor = :school_name
+  attr_accessor = :school_name. :grade
   
   ROSTER = {}
   
@@ -33,6 +33,7 @@ class School
       @roster[@grade] = []
       @roster[@grade] << @student
     end
+    @roster
   end
     
   
