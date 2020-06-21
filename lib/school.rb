@@ -56,7 +56,8 @@ class School
   
   
   def sort
-    @roster.sort
+    @roster.each do |key, value|
+      if 
   end
   
   
